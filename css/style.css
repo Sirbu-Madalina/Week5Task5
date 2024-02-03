@@ -1,0 +1,75 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.square1{
+  width: 250px;
+  height: 250px;
+  background-color: palevioletred;
+  box-shadow: 0px 85px 150px 0px rgb(210, 122, 137) ;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation: fadeDownAnimation ease 2s;
+  animation-fill-mode: forwards;
+}
+
+.square2{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(187, 112, 216);
+  box-shadow: 0px 85px 150px 0px rgb(200, 120, 231) ;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation: fadeDownAnimation ease 3s;
+  animation-fill-mode: forwards;
+}
+
+.square3{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(112, 164, 216);
+  box-shadow: 0px 85px 150px 0px rgb(127, 187, 247) ;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation: fadeDownAnimation ease 4s;
+  animation-fill-mode: forwards;
+}
+
+.square4{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(112, 216, 142);
+  box-shadow: 0px 85px 150px 0px  rgb(127, 245, 160) ;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation: fadeDownAnimation ease 5s;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes fadeInAnimation {
+  0% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeDownAnimation {
+  0% {
+      transform: translateY(-150px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
